@@ -72,21 +72,6 @@
 
 <body class="h-full fog-bg text-slate-800">
     
-    
-<svg width="0" height="0" class="absolute pointer-events-none" aria-hidden="true">
-    <defs>
-        <filter id="seal-roughness" x="-20%" y="-20%" width="140%" height="140%">
-            <feTurbulence type="turbulence" baseFrequency="0.05" numOctaves="2" result="noise" />
-            <feDisplacementMap in="SourceGraphic" in2="noise" scale="3" />
-        </filter>
-        <filter id="text-erosion">
-            <feTurbulence type="fractalNoise" baseFrequency="0.15" numOctaves="1" result="noise" />
-            <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.5" />
-        </filter>
-    </defs>
-</svg>
-
-    
 
     
 
@@ -108,20 +93,6 @@
                 </h1>
                 
                 <!-- Seal: Mathematically Centered -->
-                
-                <div
-                    class="absolute left-full top-1/2 -translate-y-1/2 ml-1 sm:ml-4 origin-left scale-75 sm:scale-110">
-                    
-<svg width="52" height="52" viewBox="0 0 100 100" aria-hidden="true"
-    xmlns="http://www.w3.org/2000/svg">
-    <path d="M15,12 Q50,5 85,12 Q95,50 88,88 Q50,95 12,88 Q5,50 15,12 Z"
-        fill="var(--color-seal)" filter="url(#seal-roughness)" opacity="0.92" />
-    <text x="50" y="50" text-anchor="middle" dominant-baseline="central"
-        font-size="42" fill="rgba(255,255,255,0.92)" filter="url(#text-erosion)"
-        class="seal-text select-none">瑟</text>
-</svg>
-
-                </div>
                 
             </div>
             
@@ -304,7 +275,7 @@
 
             <footer class="section-divider">
     <div class="text-center text-sm text-slate-500 leading-relaxed">
-        <p>&copy; <span class="oldstyle-nums">2026</span> Seon的博客</p>
+        <p>&copy; <span class="oldstyle-nums">2016–2026</span> Seon的博客</p>
         <p class="font-eng text-footnote tracking-wide opacity-90">Elegant theme by <a href="https://github.com/Acris/hexo-theme-shiro" target="_blank" rel="noopener noreferrer" class="link-muted">Shiro</a> · Made by <a href="https://acris.me" target="_blank" rel="noopener noreferrer" class="link-muted">Acris</a>
                         with <span aria-label="love" title="love">❤️</span></p>
     </div>
