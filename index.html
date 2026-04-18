@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="zh" class="h-full scroll-smooth">
+<html lang="zh-CN" class="h-full scroll-smooth">
 <head>
     <meta charset="utf-8" />
     <meta name="generator" content="Hexo " />
@@ -10,13 +10,13 @@
          → add .dark class and colorScheme if needed. -->
     <script>(function(){const d="light";window.__themeDefault=d;const s=d==='system'?['system','light','dark']:['light','dark'];let sv;try{sv=localStorage.getItem('theme')}catch(e){}if(!sv||s.indexOf(sv)===-1)sv=d;const h=document.documentElement;h.setAttribute('data-theme-state',sv);const k=sv==='dark'||(sv!=='light'&&window.matchMedia('(prefers-color-scheme:dark)').matches);if(k)h.classList.add('dark');h.style.colorScheme=k?'dark':'light';})()</script>
     <!-- Preconnect for Google Fonts (before any CSS to maximize benefit) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- Google Fonts: async preload to avoid render-blocking; merged into a single request.
-         Note: onload inline handler may be blocked under strict CSP; use JS font loader if CSP is required. -->
-    
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Spectral:wght@400;600&family=Yuji+Syuku&family=Zen+Old+Mincho:wght@400;600&family=Noto+Serif+JP:wght@400;600&family=Noto+Serif+SC:wght@400;600&family=Cormorant+Garamond:wght@400;600&family=Fira+Code:wght@400;500&display=swap" onload="this.rel='stylesheet'" data-csp-fallback />
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Spectral:wght@400;600&family=Yuji+Syuku&family=Zen+Old+Mincho:wght@400;600&family=Noto+Serif+JP:wght@400;600&family=Noto+Serif+SC:wght@400;600&family=Cormorant+Garamond:wght@400;600&family=Fira+Code:wght@400;500&display=swap" /></noscript>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <!-- Google Fonts: async preload to avoid render-blocking; merged into a single request. -->
+    <!-- Note: onload inline handler may be blocked under strict CSP; use JS font loader if CSP is required. -->
+    <!--  -->
+    <!-- <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Spectral:wght@400;600&family=Yuji+Syuku&family=Zen+Old+Mincho:wght@400;600&family=Noto+Serif+JP:wght@400;600&family=Noto+Serif+SC:wght@400;600&family=Cormorant+Garamond:wght@400;600&family=Fira+Code:wght@400;500&display=swap" onload="this.rel='stylesheet'" data-csp-fallback /> -->
+    <!-- <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Spectral:wght@400;600&family=Yuji+Syuku&family=Zen+Old+Mincho:wght@400;600&family=Noto+Serif+JP:wght@400;600&family=Noto+Serif+SC:wght@400;600&family=Cormorant+Garamond:wght@400;600&family=Fira+Code:wght@400;500&display=swap" /></noscript> -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
     
@@ -63,7 +63,7 @@
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/css/lightgallery.min.css" integrity="sha384-YlypU+LX5577RgeZebpBZTy28roXf0lHGaOSxrroczh16ktxM0BoAMPXsrehqxx8" crossorigin="anonymous" />
     
-    <link rel="stylesheet" href="/css/style.min.css?v=69bbab69">
+    <link rel="stylesheet" href="/css/style.min.css?v=57eb29de">
     <!-- CSP fallback: promote preloaded font stylesheets if onload was blocked.
          setTimeout(3000) gives onload enough time to fire first; only unprocessed preloads are promoted. -->
     <script>setTimeout(function(){document.querySelectorAll('link[data-csp-fallback][rel="preload"]').forEach(function(l){l.rel='stylesheet'})},3000)</script>
@@ -116,7 +116,7 @@
                 
                 
                 
-                <button id="themeToggle" class="group header-pill-btn" aria-label="Light" data-label-system="System" data-label-light="Light" data-label-dark="Dark">
+                <button id="themeToggle" class="group header-pill-btn" aria-label="浅色" data-label-system="跟随系统" data-label-light="浅色" data-label-dark="深色">
                     
 <svg data-icon="system" class="size-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
     <rect x="2" y="3" width="20" height="14" rx="2" stroke-width="1.5"/>
@@ -142,13 +142,13 @@
 </header>
 
 <!-- Navigation -->
-<nav class="mt-8 md:mt-10" aria-label="Menu">
+<nav class="mt-8 md:mt-10" aria-label="菜单">
     <!-- Mobile Toggle -->
     <div class="flex items-center justify-center md:hidden">
         <button id="menuBtn"
             class="focus-elegant inline-flex items-center gap-2 rounded-full border border-slate-200 bg-paper/95 px-4 py-2 text-sm text-slate-700 shadow-xs"
             aria-expanded="false" aria-controls="mobileMenu">
-            <span class="text-base leading-none tracking-widest">Menu</span>
+            <span class="text-base leading-none tracking-widest">菜单</span>
             
 <svg class="size-4 text-slate-500 transition-transform duration-200" id="menuChevron"
     viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
@@ -230,7 +230,7 @@
 <article class="content-article">
     <header class="text-center mb-4">
         <h2 class="card-title">
-            <a href="/2026/04/18/hello-world/">Hello World</a>
+            <a href="/:uncategorized/hello-world.html">Hello World</a>
         </h2>
         
 <div class="mt-2 flex items-center justify-center gap-4 text-sm text-slate-500 flex-wrap">
@@ -255,9 +255,9 @@
     </div>
     
     <div class="mt-6 text-center">
-        <a href="/2026/04/18/hello-world/"
+        <a href="/:uncategorized/hello-world.html"
             class="focus-elegant btn-ink">
-            Read More
+            阅读更多
         </a>
     </div>
     
@@ -292,7 +292,7 @@
     </div>
 
     
-    <button id="backToTop" class="back-to-top" data-visible="false" aria-label="Back to Top">
+    <button id="backToTop" class="back-to-top" data-visible="false" aria-label="回到顶部">
         <svg class="size-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
         </svg>
@@ -301,7 +301,7 @@
 
     <!-- Scripts -->
     
-    <script>window.__i18n = {"clipboard_copy":"Copy code","clipboard_copied":"Copied","gallery_visit_source":"View Source Link","gallery_view_image":"View image"};</script>
+    <script>window.__i18n = {"clipboard_copy":"复制代码","clipboard_copied":"已复制","gallery_visit_source":"查看原始链接","gallery_view_image":"查看图片"};</script>
     
     <script defer src="https://cdn.jsdelivr.net/npm/lightgallery@2.9.0/lightgallery.min.js" integrity="sha384-yshhQEAY0bBxbxfLyRlLQ7v1z45XofL6adlFh192s2NpDzXS+HPKjXoloaHiNcYO" crossorigin="anonymous"></script>
     <script defer src="/js/lightgallery.js?v=7e9057b9"></script>
